@@ -10,6 +10,7 @@
 		6764311224868EF500C3F577 /* EasyString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6764310824868EF500C3F577 /* EasyString.framework */; };
 		6764311724868EF500C3F577 /* EasyStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764311624868EF500C3F577 /* EasyStringTests.swift */; };
 		6764311924868EF500C3F577 /* EasyString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6764310B24868EF500C3F577 /* EasyString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6764312324868FEB00C3F577 /* EasyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764312224868FEB00C3F577 /* EasyString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6764311124868EF500C3F577 /* EasyStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6764311624868EF500C3F577 /* EasyStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringTests.swift; sourceTree = "<group>"; };
 		6764311824868EF500C3F577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6764312224868FEB00C3F577 /* EasyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				6764310B24868EF500C3F577 /* EasyString.h */,
 				6764310C24868EF500C3F577 /* Info.plist */,
+				6764312224868FEB00C3F577 /* EasyString.swift */,
 			);
 			path = EasyString;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					6764310724868EF500C3F577 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					6764311024868EF500C3F577 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -195,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6764312324868FEB00C3F577 /* EasyString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		6764311D24868EF500C3F577 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SDK36A53QL;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dariopellegrini.EasyString;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		6764311E24868EF500C3F577 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SDK36A53QL;
@@ -388,6 +396,7 @@
 		6764312024868EF500C3F577 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDK36A53QL;
 				INFOPLIST_FILE = EasyStringTests/Info.plist;
@@ -406,6 +415,7 @@
 		6764312124868EF500C3F577 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SDK36A53QL;
 				INFOPLIST_FILE = EasyStringTests/Info.plist;

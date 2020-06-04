@@ -20,7 +20,7 @@ class EasyStringTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func testSubstring() throws {
+    func testEastString() throws {
         var result = "Hello".substring(from: 1)
         XCTAssert(result == "ello")
         

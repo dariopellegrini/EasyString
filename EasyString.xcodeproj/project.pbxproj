@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67585AD024898020000DBE5F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 67585ACF2489801F000DBE5F /* LICENSE */; };
 		6764311224868EF500C3F577 /* EasyString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6764310824868EF500C3F577 /* EasyString.framework */; };
 		6764311724868EF500C3F577 /* EasyStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764311624868EF500C3F577 /* EasyStringTests.swift */; };
 		6764311924868EF500C3F577 /* EasyString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6764310B24868EF500C3F577 /* EasyString.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67585ACF2489801F000DBE5F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6764310824868EF500C3F577 /* EasyString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6764310B24868EF500C3F577 /* EasyString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyString.h; sourceTree = "<group>"; };
 		6764310C24868EF500C3F577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		676430FE24868EF500C3F577 = {
 			isa = PBXGroup;
 			children = (
+				67585ACF2489801F000DBE5F /* LICENSE */,
 				6764310A24868EF500C3F577 /* EasyString */,
 				6764311524868EF500C3F577 /* EasyStringTests */,
 				6764310924868EF500C3F577 /* Products */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67585AD024898020000DBE5F /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,8 @@
 		6764311624868EF500C3F577 /* EasyStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringTests.swift; sourceTree = "<group>"; };
 		6764311824868EF500C3F577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6764312224868FEB00C3F577 /* EasyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyString.swift; sourceTree = "<group>"; };
+		67DCFEFB248989D900F63BED /* EasyString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyString.h; sourceTree = "<group>"; };
+		67DCFEFC24898A0600F63BED /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,8 @@
 			children = (
 				6764310C24868EF500C3F577 /* Info.plist */,
 				6764312224868FEB00C3F577 /* EasyString.swift */,
+				67DCFEFB248989D900F63BED /* EasyString.h */,
+				67DCFEFC24898A0600F63BED /* module.modulemap */,
 			);
 			path = EasyString;
 			sourceTree = "<group>";

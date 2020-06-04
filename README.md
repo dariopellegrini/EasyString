@@ -1,2 +1,2 @@
 # EasyString
-Swift String extensions to make make easy working with strings.
+Swift String extensions that give an easier way to manipulate strings in Swift applications.
